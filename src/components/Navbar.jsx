@@ -51,7 +51,7 @@ const Navbar = () => {
             </nav>
           </div>
 
-          <div className="bg-gray-200 text-black font-bold rounded-lg px-4 py-1 hover:bg-gray-500/75 transition-all duration-500 ease-in-out hidden md:flex md:justify-center md:items-center text-sm justify-center gap-1">
+          <div className="bg-gray-200 text-black font-bold rounded-lg px-4 py-1 lg:hover:bg-gray-500/75 transition-all duration-500 ease-in-out hidden md:flex md:justify-center md:items-center text-sm justify-center gap-1">
             <a class="" href="mailto:wahedypras@gmail.com">
               {" "}
               Contact Me{" "}
@@ -89,7 +89,7 @@ const Navbar = () => {
             <div className="bg-[#0F0F0F] absolute top-0 right-0 left-1/2 h-full"></div>
           </div>
           <div className={`flex justify-center items-center gap-3 md:hidden`}>
-            <div className={`${nav ? `opacity-0 transition-all ease-in-out duration-500` : 'opacity-100 transition-all ease-in-out duration-700'} transition-all duration-300 ease-in-out bg-gray-200 text-black font-bold rounded-lg px-3 py-1 hover:bg-gray-500/75 md:hidden flex justify-center md:items-center text-sm gap-1`}>
+            <div className={`${nav ? `opacity-0 transition-all ease-in-out duration-500` : 'opacity-100 transition-all ease-in-out duration-700'} transition-all duration-300 ease-in-out bg-gray-200 text-black font-bold rounded-lg px-3 py-1 md:hidden flex justify-center md:items-center text-sm gap-1`}>
               <a class="" href="mailto:wahedypras@gmail.com">
                 {" "}
                 Contact Me{" "}

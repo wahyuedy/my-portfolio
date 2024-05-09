@@ -43,13 +43,13 @@ const Projects = () => {
               </div>
             </div>
             <div className="cursor-pointer flex flex-row  gap-3 mt-4 text-lg font-bold ">
-              <div className="transition-all duration-500 ease-in-out hover:text-gray-500/75 flex justify-center items-center gap-2 px-2 py-1 hover:border-gray-500/75 rounded-lg border-2 text-sm ">
+              <div className="transition-all duration-500 ease-in-out lg:hover:text-gray-500/75 flex justify-center items-center gap-2 px-2 py-1 lg:hover:border-gray-500/75 rounded-lg border-2 text-sm ">
                 <a href="https://github.com/wahyuedy/workouts-list" target="_blank" rel="noopener noreferrer">
                   Code
                 </a>
                 <FaGithub/>
               </div>
-              <div className="transition-all duration-500 ease-in-out hover:text-gray-500/75 flex justify-center items-center gap-2 px-2 py-1 hover:border-gray-500/75 rounded-lg border-2 text-sm">
+              <div className="transition-all duration-500 ease-in-out lg:hover:text-gray-500/75 flex justify-center items-center gap-2 px-2 py-1 lg:hover:border-gray-500/75 rounded-lg border-2 text-sm">
                 <a href="https://workoutslist.vercel.app/" target="_blank" rel="noopener noreferrer">
                   Live Demo
                 </a>

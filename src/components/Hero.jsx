@@ -29,7 +29,7 @@ const Hero = () => {
               <BsInstagram size={23} />
             </a>
           </div>
-          <div className="mt-3 max-w-[130px] bg-gray-200 text-black font-bold rounded-lg md:px-4 md:py-1 hover:bg-gray-500/75 transition-all duration-500 ease-in-out flex items-center text-xs justify-center gap-1 cursor-pointer mx-auto md:mx-0 md:mt-5">
+          <div className="mt-3 max-w-[130px] bg-gray-200 text-black font-bold rounded-lg md:px-4 md:py-1 lg:hover:bg-gray-500/75 transition-all duration-300 ease-in-out flex items-center text-xs justify-center gap-1 cursor-pointer mx-auto md:mx-0 md:mt-5">
             <a href="mailto:wahedypras@gmail.com">
               {" "}
               Contact Me{" "}
