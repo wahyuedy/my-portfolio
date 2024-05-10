@@ -19,7 +19,7 @@ const Hero = () => {
         <img src={image2} alt="" className=" md:size-72  size-48 rounded-lg object-cover mb-3 md:mb-0 md:hidden flex mx-auto" />
           <p className="mt-1 md:text-sm text-xs text-gray-400">Hi, I'm Wahyu Edy Prasetyo, a passionate full stack web developer skilled in both client-side development and server management👋🏼</p>
           <div className="flex md:mt-5 mt-3 gap-4 justify-center md:justify-start">
-            <a href="https://www.linkedin.com/in/wahyu-edy-prasetyo-410433301/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/wahyu-edy-prasetyo/" target="_blank" rel="noopener noreferrer">
               <IoLogoLinkedin size={23} />
             </a>
             <a href="https://github.com/wahyuedy" target="_blank" rel="noopener noreferrer">
@@ -30,11 +30,11 @@ const Hero = () => {
             </a>
           </div>
           <div className="mt-3 max-w-[130px] bg-gray-200 text-black font-bold rounded-lg md:px-4 md:py-1 lg:hover:bg-gray-500/75 transition-all duration-300 ease-in-out flex items-center text-xs justify-center gap-1 cursor-pointer mx-auto md:mx-0 md:mt-5">
-            <a href="mailto:wahedypras@gmail.com">
+            <a href="mailto:wahedypras@gmail.com" className="flex justify-center items-center gap-1">
               {" "}
               Contact Me{" "}
-            </a>
             <CgMail size={20} />
+            </a>
           </div>
         </div>
       </div>

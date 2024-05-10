@@ -48,7 +48,7 @@ const Footer = () => {
         </ul>
 
         <div className="mt-12 flex justify-center gap-6 md:gap-8 text-gray-500">
-          <a className="transition-all duration-500 ease-in-out hover:text-gray-700/75" href="https://www.linkedin.com/in/wahyu-edy-prasetyo-410433301/" target="_blank" rel="noopener noreferrer">
+          <a className="transition-all duration-500 ease-in-out hover:text-gray-700/75" href="https://www.linkedin.com/in/wahyu-edy-prasetyo/" target="_blank" rel="noopener noreferrer">
             <IoLogoLinkedin size={23} />
           </a>
           <a className="transition-all duration-500 ease-in-out hover:text-gray-700/75" href="https://github.com/wahyuedy" target="_blank" rel="noopener noreferrer">

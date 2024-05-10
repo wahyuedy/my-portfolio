@@ -2,7 +2,7 @@ import React from "react";
 import projetct1 from "../assets/projects/project1.jpg";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb, SiJsonwebtokens } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
@@ -20,7 +20,7 @@ const Projects = () => {
             <p className="mt-2 md:mt-0 text-xs flex items-center justify-center text-gray-400 w-full max-w-[280px] md:max-w-[500px] lg:max-w-[260px] md:text-base">
               Workout List is a website that facilitates users in creating a list of exercises according to their program.
             </p>
-            <div className="text-gray-400 text-center text-xs md:text-sm font-bold grid grid-cols-3 md:grid-cols-5 lg:grid-cols-2 lg:gap-2 gap-2 md:gap-3 lg:text-sm mt-3 ">
+            <div className="text-gray-400 text-center text-xs md:text-sm font-bold grid grid-cols-3 md:grid-cols-6 lg:grid-cols-2 lg:gap-2 gap-2 md:gap-3 lg:text-sm mt-3 ">
               <div className="flex items-center justify-center border-2 py-1 px-2 border-gray-800 rounded-md gap-1">
                 <FaReact />
                 <h1 className="">ReactJs</h1>
@@ -41,19 +41,23 @@ const Projects = () => {
                 <SiMongodb />
                 <h1 className="">MongoDB</h1>
               </div>
+              <div className="flex items-center justify-center border-2 py-1 px-2 border-gray-800 rounded-md gap-1">
+                <SiJsonwebtokens />
+                <h1 className="">JWT</h1>
+              </div>
             </div>
             <div className="cursor-pointer flex flex-row  gap-3 mt-4 text-lg font-bold ">
               <div className="transition-all duration-500 ease-in-out lg:hover:text-gray-500/75 flex justify-center items-center gap-2 px-2 py-1 lg:hover:border-gray-500/75 rounded-lg border-2 text-sm ">
-                <a href="https://github.com/wahyuedy/workouts-list" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/wahyuedy/workouts-list" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-2">
                   Code
+                <FaGithub size={17}/>
                 </a>
-                <FaGithub/>
               </div>
               <div className="transition-all duration-500 ease-in-out lg:hover:text-gray-500/75 flex justify-center items-center gap-2 px-2 py-1 lg:hover:border-gray-500/75 rounded-lg border-2 text-sm">
-                <a href="https://workoutslist.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://workoutslist.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-2">
                   Live Demo
-                </a>
                 <FaArrowUpRightFromSquare />
+                </a>
               </div>
             </div>
           </div>

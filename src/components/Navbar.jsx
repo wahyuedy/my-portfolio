@@ -52,11 +52,11 @@ const Navbar = () => {
           </div>
 
           <div className="bg-gray-200 text-black font-bold rounded-lg px-4 py-1 lg:hover:bg-gray-500/75 transition-all duration-500 ease-in-out hidden md:flex md:justify-center md:items-center text-sm justify-center gap-1">
-            <a class="" href="mailto:wahedypras@gmail.com">
+            <a class="" href="mailto:wahedypras@gmail.com" className="flex justify-center items-center gap-1">
               {" "}
               Contact Me{" "}
-            </a>
             <CgMail size={20} />
+            </a>
           </div>
 
           <div className={`transition-all px-5 duration-500 ease-in-out ${!nav ? "absolute top-[-490px] opacity-0 left-0 right-0" : "absolute top-5 left-0 right-0 opacity-100"} flex justify-center items-center`}>
@@ -90,11 +90,11 @@ const Navbar = () => {
           </div>
           <div className={`flex justify-center items-center gap-3 md:hidden`}>
             <div className={`${nav ? `opacity-0 transition-all ease-in-out duration-500` : 'opacity-100 transition-all ease-in-out duration-700'} transition-all duration-300 ease-in-out bg-gray-200 text-black font-bold rounded-lg px-3 py-1 md:hidden flex justify-center md:items-center text-sm gap-1`}>
-              <a class="" href="mailto:wahedypras@gmail.com">
+              <a class="" href="mailto:wahedypras@gmail.com" className="flex justify-center items-center gap-1">
                 {" "}
                 Contact Me{" "}
-              </a>
               <CgMail size={20} />
+              </a>
             </div>
             <div class="block md:hidden z-10" onClick={handleCLick}>
               {!nav ? <TiThMenu size={17} /> : <VscChromeClose size={17} />}
